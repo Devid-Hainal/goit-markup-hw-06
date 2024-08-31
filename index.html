@@ -58,7 +58,7 @@
             <use href="/images/icons.svg#icon-heroicons-solid-menu"></use>
           </svg>
         </button>
-        <div class="mobile-menu is-open">
+        <div class="mobile-menu ">
           <div class="container mobile-menu-container">
             <button class="mobile-menu-close" type="button">
               <svg class="menu-close-icon" width="8" height="8">
@@ -141,7 +141,7 @@
       </section>
       <!-- hero -->
       <section class="hero">
-        <div class="container hero-containet">
+        <div class="container hero-container">
           <h2 class="visually-hidden">Benefit</h2>
           <ul class="hero-item-title">
             <li class="hero-item-list">
@@ -196,21 +196,26 @@
         </div>
       </section>
       <!-- portfolio -->
-      <section class="hidden">
+      <section class="portfolio-page">
         <div class="container contants-portfolio">
           <h2 class="portfolio-logo">Our Team</h2>
           <ul class="portfolio-cart-item">
             <li class="portfolio-cart">
+              <picture>
+                <source srcset="./images/mark-guerrero.jpg 1x, ./images/mark-guerrero-2x.jpg 2x" media="(min-width: 1158px)">
+                <source srcset="./images/mark-guerrero.jpg 1x, ./images/mark-guerrero-2x.jpg 2x" media="(min-width: 768px)">
+                <source srcset="./images/mark-guerrero.jpg 1x, ./images/mark-guerrero-2x.jpg 2x" media="(max-width: 767px)">
               <img
                 src="./images/mark-guerrero.jpg"
                 alt="mark-guerrero"
                 width="264"
                 height="260"
               />
+            </picture>
               <div class="text-img">
                 <h3 class="cart-content">Mark Guerrero</h3>
                 <p class="cart-content-tem">Product Designer</p>
-                <ul class="portfolio-cart-item">
+                <ul class="portfolio-social">
                   <li class="team-social-link">
                     <a
                       class="social-link-list"
@@ -252,12 +257,17 @@
               </div>
             </li>
             <li class="portfolio-cart">
-              <img
+              <picture>
+                <source srcset="./images/tom-ford.jpg 1x, ./images/tom-ford-2x.jpg 2x" media="(min-width: 1158px)">
+                <source srcset="./images/tom-ford.jpg 1x, ./images/tom-ford-2x.jpg 2x" media="(min-width: 768px)">
+                <source srcset="./images/tom-ford.jpg 1x, ./images/tom-ford-2x.jpg 2x" media="(max-width: 767px)">
+                <img
                 src="./images/tom-ford.jpg"
                 alt="tom-ford"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="text-img">
                 <h3 class="cart-content">Tom Ford</h3>
                 <p class="cart-content-tem">Frontend Developer</p>
@@ -303,12 +313,17 @@
               </div>
             </li>
             <li class="portfolio-cart">
-              <img
+              <picture>
+                <source srcset="./images/camila-garcia.jpg 1x, ./images/camila-garcia-2x.jpg 2x" media="(min-width: 1158px)">
+                <source srcset="./images/camila-garcia.jpg 1x, ./images/camila-garcia-2x.jpg 2x" media="(min-width: 768px)">
+                <source srcset="./images/camila-garcia.jpg 1x, ./images/camila-garcia-2x.jpg 2x" media="(max-width: 767px)">
+                <img
                 src="./images/camila-garcia.jpg"
-                alt="amila-garcia"
+                alt="camila-garcia"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="text-img">
                 <h3 class="cart-content">Camila Garcia</h3>
                 <p class="cart-content-tem">Marketing</p>
@@ -354,12 +369,17 @@
               </div>
             </li>
             <li class="portfolio-cart">
-              <img
+              <picture>
+                <source srcset="./images/daniel-wilson.jpg 1x, ./images/daniel-wilson-2x.jpg" media="(min-width: 1158px)">
+                <source srcset="./images/daniel-wilson.jpg 1x, ./images/daniel-wilson-2x.jpg" media="(min-width: 768px)">
+                <source srcset="./images/daniel-wilson.jpg 1x, ./images/daniel-wilson-2x.jpg" media="(max-width: 767px)">
+                <img
                 src="./images/daniel-wilson.jpg"
                 alt="daniel-wilson"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="text-img">
                 <h3 class="cart-content">Daniel Wilson</h3>
                 <p class="cart-content-tem">UI Designer</p>
